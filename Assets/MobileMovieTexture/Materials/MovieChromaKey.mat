@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: MovieChromaKey
+  m_Shader: {fileID: 4800000, guid: 2018bc41ca7a546e78c21d3cb0eff479, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: .625, y: -.703125}
+          m_Offset: {x: 0, y: .703125}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _YTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: .952380955, y: -.978260875}
+          m_Offset: {x: 0, y: .989130437}
+      data:
+        first:
+          name: _CrTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: .952380955, y: -.978260875}
+          m_Offset: {x: 0, y: .989130437}
+      data:
+        first:
+          name: _CbTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: .952380955, y: -.978260875}
+          m_Offset: {x: 0, y: .989130437}
+    m_Floats:
+      data:
+        first:
+          name: _LowThreshold
+        second: .196428567
+      data:
+        first:
+          name: _HighThreshold
+        second: .232142821
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _KeyYCbCr
+        second: {r: .247820601, g: .377084672, b: .865429342, a: 1}
+      data:
+        first:
+          name: _KeyScale
+        second: {r: .100000001, g: 1, b: 1, a: 0}
+      data:
+        first:
+          name: _KeyYCrCb
+        second: {r: .240944684, g: .83436811, b: .387018621, a: -.0814629123}
+      data:
+        first:
+          name: _YCbCRDeltaScale
+        second: {r: 0, g: 1, b: 1, a: 1.41421354}
+--- !u!1002 &2100001
+EditorExtensionImpl:
+  serializedVersion: 6

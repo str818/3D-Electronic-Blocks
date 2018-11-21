@@ -1,0 +1,346 @@
+fileFormatVersion: 2
+guid: d1b2908396a045240aa923bdf2c95c50
+timeCreated: 1488765321
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Base
+    100002: Base 1
+    100004: Base 2
+    100006: BaseGroup
+    100008: ButtonDown
+    100010: ButtonDown 1
+    100012: ButtonDown 2
+    100014: ButtonUp
+    100016: ButtonUp 1
+    100018: ButtonUp 2
+    100020: ButtonUp 3
+    100022: ButtonUp 4
+    100024: ButtonUp 5
+    100026: ButtonUp 6
+    100028: ButtonUp 7
+    100030: ButtonUp 8
+    100032: column
+    100034: column 1
+    100036: column 2
+    100038: column 3
+    100040: //RootNode
+    100042: Group1
+    100044: Group2
+    100046: Line
+    100048: Line 1
+    100050: Line 10
+    100052: Line 11
+    100054: Line 12
+    100056: Line 13
+    100058: Line 2
+    100060: Line 3
+    100062: Line 4
+    100064: Line 5
+    100066: Line 6
+    100068: Line 7
+    100070: Line 8
+    100072: Line 9
+    100074: Obj
+    100076: Obj 1
+    100078: Text
+    100080: Text 1
+    100082: Text 10
+    100084: Text 11
+    100086: Text 12
+    100088: Text 13
+    100090: Text 14
+    100092: Text 15
+    100094: Text 16
+    100096: Text 17
+    100098: Text 2
+    100100: Text 3
+    100102: Text 4
+    100104: Text 5
+    100106: Text 6
+    100108: Text 7
+    100110: Text 8
+    100112: Text 9
+    100114: TextGroup
+    400000: Base
+    400002: Base 1
+    400004: Base 2
+    400006: BaseGroup
+    400008: ButtonDown
+    400010: ButtonDown 1
+    400012: ButtonDown 2
+    400014: ButtonUp
+    400016: ButtonUp 1
+    400018: ButtonUp 2
+    400020: ButtonUp 3
+    400022: ButtonUp 4
+    400024: ButtonUp 5
+    400026: ButtonUp 6
+    400028: ButtonUp 7
+    400030: ButtonUp 8
+    400032: column
+    400034: column 1
+    400036: column 2
+    400038: column 3
+    400040: //RootNode
+    400042: Group1
+    400044: Group2
+    400046: Line
+    400048: Line 1
+    400050: Line 10
+    400052: Line 11
+    400054: Line 12
+    400056: Line 13
+    400058: Line 2
+    400060: Line 3
+    400062: Line 4
+    400064: Line 5
+    400066: Line 6
+    400068: Line 7
+    400070: Line 8
+    400072: Line 9
+    400074: Obj
+    400076: Obj 1
+    400078: Text
+    400080: Text 1
+    400082: Text 10
+    400084: Text 11
+    400086: Text 12
+    400088: Text 13
+    400090: Text 14
+    400092: Text 15
+    400094: Text 16
+    400096: Text 17
+    400098: Text 2
+    400100: Text 3
+    400102: Text 4
+    400104: Text 5
+    400106: Text 6
+    400108: Text 7
+    400110: Text 8
+    400112: Text 9
+    400114: TextGroup
+    2300000: Base
+    2300002: Base 1
+    2300004: Base 2
+    2300006: ButtonDown
+    2300008: ButtonDown 1
+    2300010: ButtonDown 2
+    2300012: ButtonUp
+    2300014: ButtonUp 1
+    2300016: ButtonUp 2
+    2300018: ButtonUp 3
+    2300020: ButtonUp 4
+    2300022: ButtonUp 5
+    2300024: ButtonUp 6
+    2300026: ButtonUp 7
+    2300028: ButtonUp 8
+    2300030: column
+    2300032: column 1
+    2300034: column 2
+    2300036: column 3
+    2300038: Line
+    2300040: Line 1
+    2300042: Line 10
+    2300044: Line 11
+    2300046: Line 12
+    2300048: Line 13
+    2300050: Line 2
+    2300052: Line 3
+    2300054: Line 4
+    2300056: Line 5
+    2300058: Line 6
+    2300060: Line 7
+    2300062: Line 8
+    2300064: Line 9
+    2300066: Obj
+    2300068: Obj 1
+    2300070: Text
+    2300072: Text 1
+    2300074: Text 10
+    2300076: Text 11
+    2300078: Text 12
+    2300080: Text 13
+    2300082: Text 14
+    2300084: Text 15
+    2300086: Text 16
+    2300088: Text 17
+    2300090: Text 2
+    2300092: Text 3
+    2300094: Text 4
+    2300096: Text 5
+    2300098: Text 6
+    2300100: Text 7
+    2300102: Text 8
+    2300104: Text 9
+    3300000: Base
+    3300002: Base 1
+    3300004: Base 2
+    3300006: ButtonDown
+    3300008: ButtonDown 1
+    3300010: ButtonDown 2
+    3300012: ButtonUp
+    3300014: ButtonUp 1
+    3300016: ButtonUp 2
+    3300018: ButtonUp 3
+    3300020: ButtonUp 4
+    3300022: ButtonUp 5
+    3300024: ButtonUp 6
+    3300026: ButtonUp 7
+    3300028: ButtonUp 8
+    3300030: column
+    3300032: column 1
+    3300034: column 2
+    3300036: column 3
+    3300038: Line
+    3300040: Line 1
+    3300042: Line 10
+    3300044: Line 11
+    3300046: Line 12
+    3300048: Line 13
+    3300050: Line 2
+    3300052: Line 3
+    3300054: Line 4
+    3300056: Line 5
+    3300058: Line 6
+    3300060: Line 7
+    3300062: Line 8
+    3300064: Line 9
+    3300066: Obj
+    3300068: Obj 1
+    3300070: Text
+    3300072: Text 1
+    3300074: Text 10
+    3300076: Text 11
+    3300078: Text 12
+    3300080: Text 13
+    3300082: Text 14
+    3300084: Text 15
+    3300086: Text 16
+    3300088: Text 17
+    3300090: Text 2
+    3300092: Text 3
+    3300094: Text 4
+    3300096: Text 5
+    3300098: Text 6
+    3300100: Text 7
+    3300102: Text 8
+    3300104: Text 9
+    4300000: column
+    4300002: column
+    4300004: column
+    4300006: column
+    4300008: Obj
+    4300010: Obj
+    4300012: Text
+    4300014: Text
+    4300016: Text
+    4300018: Text
+    4300020: Text
+    4300022: Text
+    4300024: Text
+    4300026: Text
+    4300028: Text
+    4300030: Text
+    4300032: Text
+    4300034: Text
+    4300036: Text
+    4300038: Text
+    4300040: Text
+    4300042: Text
+    4300044: Text
+    4300046: Text
+    4300048: Base
+    4300050: Base
+    4300052: Base
+    4300054: ButtonDown
+    4300056: ButtonDown
+    4300058: ButtonDown
+    4300060: ButtonUp
+    4300062: ButtonUp
+    4300064: ButtonUp
+    4300066: ButtonUp
+    4300068: ButtonUp
+    4300070: ButtonUp
+    4300072: ButtonUp
+    4300074: ButtonUp
+    4300076: ButtonUp
+    4300078: Line
+    4300080: Line
+    4300082: Line
+    4300084: Line
+    4300086: Line
+    4300088: Line
+    4300090: Line
+    4300092: Line
+    4300094: Line
+    4300096: Line
+    4300098: Line
+    4300100: Line
+    4300102: Line
+    4300104: Line
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,241 @@
+fileFormatVersion: 2
+guid: 26241e624d588504792b26deb086dba2
+timeCreated: 1484313866
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Base
+    100002: BaseGroup
+    100004: //RootNode
+    100006: Battery components
+    100008: Battery components 1
+    100010: Battery components 10
+    100012: Battery components 11
+    100014: Battery components 12
+    100016: Battery components 13
+    100018: Battery components 2
+    100020: Battery components 3
+    100022: Battery components 4
+    100024: Battery components 5
+    100026: Battery components 6
+    100028: Battery components 7
+    100030: Battery components 8
+    100032: Battery components 9
+    100034: Battery components group
+    100036: ButtonDown
+    100038: ButtonDown 1
+    100040: ButtonUp
+    100042: ButtonUp 1
+    100044: Text
+    100046: Text 1
+    100048: Text 10
+    100050: Text 11
+    100052: Text 12
+    100054: Text 13
+    100056: Text 14
+    100058: Text 2
+    100060: Text 3
+    100062: Text 4
+    100064: Text 5
+    100066: Text 6
+    100068: Text 7
+    100070: Text 8
+    100072: Text 9
+    100074: TextGroup
+    400000: Base
+    400002: BaseGroup
+    400004: //RootNode
+    400006: Battery components
+    400008: Battery components 1
+    400010: Battery components 10
+    400012: Battery components 11
+    400014: Battery components 12
+    400016: Battery components 13
+    400018: Battery components 2
+    400020: Battery components 3
+    400022: Battery components 4
+    400024: Battery components 5
+    400026: Battery components 6
+    400028: Battery components 7
+    400030: Battery components 8
+    400032: Battery components 9
+    400034: Battery components group
+    400036: ButtonDown
+    400038: ButtonDown 1
+    400040: ButtonUp
+    400042: ButtonUp 1
+    400044: Text
+    400046: Text 1
+    400048: Text 10
+    400050: Text 11
+    400052: Text 12
+    400054: Text 13
+    400056: Text 14
+    400058: Text 2
+    400060: Text 3
+    400062: Text 4
+    400064: Text 5
+    400066: Text 6
+    400068: Text 7
+    400070: Text 8
+    400072: Text 9
+    400074: TextGroup
+    2300000: Base
+    2300002: Battery components
+    2300004: Battery components 10
+    2300006: Battery components 11
+    2300008: Battery components 12
+    2300010: Battery components 13
+    2300012: Battery components 2
+    2300014: Battery components 3
+    2300016: Battery components 5
+    2300018: Battery components 6
+    2300020: Battery components 7
+    2300022: Battery components 8
+    2300024: Battery components 9
+    2300026: ButtonDown
+    2300028: ButtonDown 1
+    2300030: ButtonUp
+    2300032: ButtonUp 1
+    2300034: Text 1
+    2300036: Text 10
+    2300038: Text 11
+    2300040: Text 12
+    2300042: Text 13
+    2300044: Text 14
+    2300046: Text 2
+    2300048: Text 3
+    2300050: Text 4
+    2300052: Text 5
+    2300054: Text 6
+    2300056: Text 7
+    2300058: Text 8
+    2300060: Text 9
+    3300000: Base
+    3300002: Battery components
+    3300004: Battery components 10
+    3300006: Battery components 11
+    3300008: Battery components 12
+    3300010: Battery components 13
+    3300012: Battery components 2
+    3300014: Battery components 3
+    3300016: Battery components 5
+    3300018: Battery components 6
+    3300020: Battery components 7
+    3300022: Battery components 8
+    3300024: Battery components 9
+    3300026: ButtonDown
+    3300028: ButtonDown 1
+    3300030: ButtonUp
+    3300032: ButtonUp 1
+    3300034: Text 1
+    3300036: Text 10
+    3300038: Text 11
+    3300040: Text 12
+    3300042: Text 13
+    3300044: Text 14
+    3300046: Text 2
+    3300048: Text 3
+    3300050: Text 4
+    3300052: Text 5
+    3300054: Text 6
+    3300056: Text 7
+    3300058: Text 8
+    3300060: Text 9
+    4300000: ButtonUp
+    4300002: ButtonUp
+    4300004: ButtonDown
+    4300006: ButtonDown
+    4300008: Battery components
+    4300010: Battery components
+    4300012: Battery components
+    4300014: Battery components
+    4300016: Battery components
+    4300018: Battery components
+    4300020: Battery components
+    4300022: Battery components
+    4300024: Battery components
+    4300026: Battery components
+    4300028: Battery components
+    4300030: Battery components
+    4300032: Base
+    4300034: Text
+    4300036: Text
+    4300038: Text
+    4300040: Text
+    4300042: Text
+    4300044: Text
+    4300046: Text
+    4300048: Text
+    4300050: Text
+    4300052: Text
+    4300054: Text
+    4300056: Text
+    4300058: Text
+    4300060: Text
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

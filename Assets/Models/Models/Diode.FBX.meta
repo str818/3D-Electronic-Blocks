@@ -1,0 +1,158 @@
+fileFormatVersion: 2
+guid: b8721327ccf9baf409199b015ed4e85f
+timeCreated: 1487155838
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Base
+    100002: BaseGroup
+    100004: ButtonDown
+    100006: ButtonDown 1
+    100008: ButtonUp
+    100010: ButtonUp 1
+    100012: Capsule001
+    100014: //RootNode
+    100016: Obj
+    100018: Obj 1
+    100020: Obj 2
+    100022: Obj 3
+    100024: Text
+    100026: Text 1
+    100028: Text 2
+    100030: Text 3
+    100032: TextGroup
+    100034: Wire
+    100036: Wire 1
+    400000: Base
+    400002: BaseGroup
+    400004: ButtonDown
+    400006: ButtonDown 1
+    400008: ButtonUp
+    400010: ButtonUp 1
+    400012: Capsule001
+    400014: //RootNode
+    400016: Obj
+    400018: Obj 1
+    400020: Obj 2
+    400022: Obj 3
+    400024: Text
+    400026: Text 1
+    400028: Text 2
+    400030: Text 3
+    400032: TextGroup
+    400034: Wire
+    400036: Wire 1
+    2300000: Base
+    2300002: ButtonDown
+    2300004: ButtonDown 1
+    2300006: ButtonUp
+    2300008: ButtonUp 1
+    2300010: Capsule001
+    2300012: Obj
+    2300014: Obj 1
+    2300016: Obj 2
+    2300018: Obj 3
+    2300020: Text
+    2300022: Text 1
+    2300024: Text 2
+    2300026: Text 3
+    2300028: Wire
+    2300030: Wire 1
+    3300000: Base
+    3300002: ButtonDown
+    3300004: ButtonDown 1
+    3300006: ButtonUp
+    3300008: ButtonUp 1
+    3300010: Capsule001
+    3300012: Obj
+    3300014: Obj 1
+    3300016: Obj 2
+    3300018: Obj 3
+    3300020: Text
+    3300022: Text 1
+    3300024: Text 2
+    3300026: Text 3
+    3300028: Wire
+    3300030: Wire 1
+    4300000: Capsule001
+    4300002: ButtonUp
+    4300004: ButtonUp
+    4300006: ButtonDown
+    4300008: ButtonDown
+    4300010: Wire
+    4300012: Wire
+    4300014: Text
+    4300016: Text
+    4300018: Text
+    4300020: Text
+    4300022: Obj
+    4300024: Obj
+    4300026: Obj
+    4300028: Obj
+    4300030: Base
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

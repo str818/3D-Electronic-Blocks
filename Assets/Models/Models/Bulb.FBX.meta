@@ -1,0 +1,224 @@
+fileFormatVersion: 2
+guid: 4770710e176b2ab4e9cdcd1573bf9c05
+timeCreated: 1484359607
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Base
+    100002: BaseGroup
+    100004: //RootNode
+    100006: ButtonDown
+    100008: ButtonDown 1
+    100010: ButtonUp
+    100012: ButtonUp 1
+    100014: Lamp unit
+    100016: Lamp unit 1
+    100018: Lamp unit 2
+    100020: Lamp unit 3
+    100022: Lamp unit 4
+    100024: Lamp unit 5
+    100026: Lamp unit 6
+    100028: Lamp unit 7
+    100030: Lamp unit 8
+    100032: Light
+    100034: LightGroup
+    100036: Text
+    100038: Text 1
+    100040: Text 2
+    100042: Text 3
+    100044: Text 4
+    100046: Text 5
+    100048: Text 6
+    100050: Text 7
+    100052: TextGroup
+    100054: Wick
+    100056: Wick 1
+    100058: Wick 2
+    100060: Wick 3
+    100062: Wick 4
+    100064: WickGroup
+    100066: Wireway
+    400000: Base
+    400002: BaseGroup
+    400004: //RootNode
+    400006: ButtonDown
+    400008: ButtonDown 1
+    400010: ButtonUp
+    400012: ButtonUp 1
+    400014: Lamp unit
+    400016: Lamp unit 1
+    400018: Lamp unit 2
+    400020: Lamp unit 3
+    400022: Lamp unit 4
+    400024: Lamp unit 5
+    400026: Lamp unit 6
+    400028: Lamp unit 7
+    400030: Lamp unit 8
+    400032: Light
+    400034: LightGroup
+    400036: Text
+    400038: Text 1
+    400040: Text 2
+    400042: Text 3
+    400044: Text 4
+    400046: Text 5
+    400048: Text 6
+    400050: Text 7
+    400052: TextGroup
+    400054: Wick
+    400056: Wick 1
+    400058: Wick 2
+    400060: Wick 3
+    400062: Wick 4
+    400064: WickGroup
+    400066: Wireway
+    2300000: Base
+    2300002: ButtonDown
+    2300004: ButtonDown 1
+    2300006: ButtonUp
+    2300008: ButtonUp 1
+    2300010: Lamp unit
+    2300012: Lamp unit 1
+    2300014: Lamp unit 2
+    2300016: Lamp unit 3
+    2300018: Lamp unit 4
+    2300020: Lamp unit 5
+    2300022: Lamp unit 6
+    2300024: Lamp unit 7
+    2300026: Lamp unit 8
+    2300028: Text
+    2300030: Text 1
+    2300032: Text 2
+    2300034: Text 3
+    2300036: Text 4
+    2300038: Text 5
+    2300040: Text 6
+    2300042: Text 7
+    2300044: Wick
+    2300046: Wick 1
+    2300048: Wick 2
+    2300050: Wick 3
+    2300052: Wick 4
+    2300054: Wireway
+    3300000: Base
+    3300002: ButtonDown
+    3300004: ButtonDown 1
+    3300006: ButtonUp
+    3300008: ButtonUp 1
+    3300010: Lamp unit
+    3300012: Lamp unit 1
+    3300014: Lamp unit 2
+    3300016: Lamp unit 3
+    3300018: Lamp unit 4
+    3300020: Lamp unit 5
+    3300022: Lamp unit 6
+    3300024: Lamp unit 7
+    3300026: Lamp unit 8
+    3300028: Text
+    3300030: Text 1
+    3300032: Text 2
+    3300034: Text 3
+    3300036: Text 4
+    3300038: Text 5
+    3300040: Text 6
+    3300042: Text 7
+    3300044: Wick
+    3300046: Wick 1
+    3300048: Wick 2
+    3300050: Wick 3
+    3300052: Wick 4
+    3300054: Wireway
+    4300000: Base
+    4300002: Wireway
+    4300004: Text
+    4300006: Text
+    4300008: Text
+    4300010: Text
+    4300012: Text
+    4300014: Text
+    4300016: Text
+    4300018: Text
+    4300020: ButtonDown
+    4300022: ButtonDown
+    4300024: ButtonUp
+    4300026: ButtonUp
+    4300028: Wick
+    4300030: Wick
+    4300032: Wick
+    4300034: Wick
+    4300036: Wick
+    4300038: Lamp unit
+    4300040: Lamp unit
+    4300042: Lamp unit
+    4300044: Lamp unit
+    4300046: Lamp unit
+    4300048: Lamp unit
+    4300050: Lamp unit
+    4300052: Lamp unit
+    4300054: Lamp unit
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

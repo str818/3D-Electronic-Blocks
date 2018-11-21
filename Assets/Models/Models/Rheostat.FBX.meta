@@ -1,0 +1,151 @@
+fileFormatVersion: 2
+guid: 2f05cbe1c5d65b946bdaf76e27632bda
+timeCreated: 1486640074
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Base
+    100002: Base 1
+    100004: Base 2
+    100006: BaseGroup
+    100008: ButtonDown
+    100010: ButtonDown 1
+    100012: ButtonDown 2
+    100014: ButtonUp
+    100016: ButtonUp 1
+    100018: ButtonUp 2
+    100020: Plane
+    100022: //RootNode
+    100024: Switch
+    100026: Switch 1
+    100028: Text
+    100030: Text 1
+    100032: Text 2
+    400000: Base
+    400002: Base 1
+    400004: Base 2
+    400006: BaseGroup
+    400008: ButtonDown
+    400010: ButtonDown 1
+    400012: ButtonDown 2
+    400014: ButtonUp
+    400016: ButtonUp 1
+    400018: ButtonUp 2
+    400020: Plane
+    400022: //RootNode
+    400024: Switch
+    400026: Switch 1
+    400028: Text
+    400030: Text 1
+    400032: Text 2
+    2300000: Base
+    2300002: Base 1
+    2300004: Base 2
+    2300006: ButtonDown
+    2300008: ButtonDown 1
+    2300010: ButtonDown 2
+    2300012: ButtonUp
+    2300014: ButtonUp 1
+    2300016: ButtonUp 2
+    2300018: Plane
+    2300020: Switch
+    2300022: Switch 1
+    2300024: Text
+    2300026: Text 1
+    2300028: Text 2
+    3300000: Base
+    3300002: Base 1
+    3300004: Base 2
+    3300006: ButtonDown
+    3300008: ButtonDown 1
+    3300010: ButtonDown 2
+    3300012: ButtonUp
+    3300014: ButtonUp 1
+    3300016: ButtonUp 2
+    3300018: Plane
+    3300020: Switch
+    3300022: Switch 1
+    3300024: Text
+    3300026: Text 1
+    3300028: Text 2
+    4300000: ButtonDown
+    4300002: ButtonDown
+    4300004: ButtonUp
+    4300006: ButtonUp
+    4300008: ButtonUp
+    4300010: ButtonDown
+    4300012: Base
+    4300014: Base
+    4300016: Base
+    4300018: Plane
+    4300020: Switch
+    4300022: Switch
+    4300024: Text
+    4300026: Text
+    4300028: Text
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,146 @@
+Mobile Movie Texture 2.1.2
+
+Getting started
+
+Encoding new movies
+	Mobile Movie Texture only supports ogg theora encoded videos. The easiest way to encode ogg theora is to use the command line utility at http://v2v.cc/~j/ffmpeg2theora/download.html.
+	
+	These are the command lines I used to convert the demo movie. I used 2 pass, variable bitrate of 2000
+	
+	ffmpeg2theora-0.29.exe --soft-target -V 2000 --two-pass --first-pass pass.pass --optimize --noaudio -x 640 -y 360 HandOfFate.mov
+	ffmpeg2theora-0.29.exe --soft-target -V 2000 --two-pass --second-pass pass.pass --optimize --noaudio -x 640 -y 360 HandOfFate.mov
+	
+Adding movies
+	To get unity to include your movie in your final build, the files need to be under the StreamingAssets directory. For more info see http://docs.unity3d.com/Documentation/Manual/StreamingAssets.html
+	
+Playing movies
+	Movies need a couple of things in order to be played. To get started, it is best to check out the scene MobileMovieTexture/Scenes/MMTSample.unity
+	
+	Movies need
+	• A MobileMovieTexture component per decoded movie
+		The most important thing to set up on this, is the reference to the movie in the streaming assets directory.
+		
+		Next we need a material to play the movie on. We require a special shader to convert the movie from the YCbCr color space to the RGB color space. The shader for this is "Color Space/YCbCrtoRGB". The material needs to be assigned in the MMT component in the Movie Materials array.
+		
+	• A single Mobile Movie Manager component
+
+	• An object to see the movie on
+		In the example scenes, I just a plane with the same material assigned as in the MMT component MobileMovieTexture/Scenes/MMTSample.unity
+
+Advanced features	
+	Seeking
+		There is a playPosition property in MobileMovieTexture that can be read an set. Seeking is a fast operation, it tries to find the nearest key frame before the time you request. However, it typically fails to find the nearest key frame and the decoded stream suffers from artefacts till it reaches the next key frame. To mitigate this, I added another flag that stops the movie showing till it finds that next key frame.
+		Remember the time that you request will probably not be the time the movie ends up at, because of the key frame searching.
+		
+	Duration
+		By default, MMT scans the movie on open for the duration. This scans through the whole file once, so if you can avoid doing it, please do. Ogg as a container, is super versatile. The downside of the versatility is that it doesn't store the duration of a stream ahead of time, you have to scan the whole stream for it. The behaviour can be disabled with the ScanDuration property.
+		
+	Chroma Key http://en.wikipedia.org/wiki/Chroma_key
+		This makes the movie transparent in place of a key color. Check out the sample scene MobileMovieTexture/Scenes/MMTChromaKeySample.unity . It uses a different shader on the material to add the transparency in, "Color Space/YCbCrtoRGB Chroma Key". 
+		
+		First we need to set out key color up in the material "Chroma Key Color". The easiest way to set this up initially is to play the scene with the movie active and use the colour picker in the material to select the color from the movie.
+		
+		You shouldn't have to change the "YCbCr priority". I uses this when comparing colors, we make the luminance value (Y) less important than the color values (CbCr). For example if blue is our key colour, we will consider bright blues and dark blues closer than any other color.
+		
+		The high and low threshold are a bit fiddly to set up. They just narrow down the band of colors we will consider full alpha. Play with them to remove the chroma key halo on objects.
+	
+	Split Alpha
+		This is an alternative form of transparency. It useful for semi transparent videos, where chroma keying would leave you with a blue/green tinge. Check out the example scene "MobileMovieTexture/Scenes/SplitAlphaSample.unity". The alpha channel is converted to luminance and stored next to the color channel. I have included my source sony vegas project for this video here MobileMovieTexture/Source/ExplosionSplitAlpha.7z
+
+Changes
+	Version 2.1.2 15/04/2015
+		•iOS/Android: Fix Unity 5.0 support
+		•iOS: Add metal support
+		•Win: Fix split alpha on DX11
+		•All platforms: fix playing movies of different dimensions sequentially on same MMT component
+
+	Version 2.1.1 27/01/2015
+		•All platforms: Fix a crash
+
+	Version 2.1.0 20/01/2015
+		•All platforms: 64 bit support
+		•iOS/Android: Multi threaded rendering support >= Unity 4.5
+		•Android: x86 support
+		•Win: Direct X 11 support
+		•Win: OpenGL support
+		•Win: Native threading, remove dependency on pthreads
+		•iOS: Use more arm assembly 
+		•All platforms: Improved movie picker
+		•All platforms: Fixed threading model, eliminated a deadlock
+		•All platforms: Fixed problem with the manager not cleaning itself up
+		•All platforms: Fixed the TextureContext comparison
+		•All platforms: Made the naming a little more consistent
+	
+	Version 2.0.4 01/05/2014
+		•iOS/Android: Fix 'green textures' problem.
+
+	Version 2.0.3 21/04/2014
+		•All platforms: Fix stop not working properly
+		•All platforms: Fix intermittent starting bug
+		•Win: DLL is now compiled with Visual Studio 2010 (was 2008)
+
+	Version 2.0.2 26/03/2014
+		•All platforms: Fix black flash between consecutively played (same size) movies on MMT object
+		•Android: Fix scan duration
+		
+	Version 2.0.1 24/03/2014
+		•All platforms: Bring back the finished flag
+	
+	Version 2.0.0 15/03/2014
+		•All platforms: Add video seeking (now built on top of liboggz, thanks Andy Suter)
+		•All platforms: Each video decodes on its own thread
+		•Win/OSX: Move to unity's native render plugin system (no DX11 or Win 64 bit yet)
+		•All platforms: Can now scan the duration of a movie
+		•All platforms: Playback speed exposed and better looping options
+		•All platforms: Simplified the shaders
+		•All platforms: Load from absolute path
+		•All platforms: Removed the external chroma key material editor, use material property drawers now
+		•All platforms: Moved all code into the MMT namespace
+		•iOS: Removed XCode 3 support
+		•All platforms: Split alpha has a horizontal option in the shader
+		
+	Version 1.1.7 24/11/2012
+		•Android: Fix bug in streaming from OBB package, thanks floky!
+
+	Version 1.1.6 29/10/2012
+		•Android: Auto stream from OBB package
+		
+	Version 1.1.5 23/08/2012
+		•All platforms: Add a split alpha demo+shader to have a seperate alpha channel in your videos. Chroma keying works well for cutting out people but doesn't work well for a lot of semi transparent things, like particles. Split alpha works well for semi transparent stuff.
+		•iOS/Android: Fixed the CrCb channels not lining up properly with videos that have half sized CrCb buffers. Thanks to android_dev for the example.
+		•All platforms: Fixed video picture offsets. Thanks to Bryan @ Annosoft for the example.
+		•All platforms: Fixed the infinite loop if you didn't have a onFinish delegate.
+		•iOS/Android: About a 15% performance improvement up in mobile shaders 
+
+	Version 1.1.4 21/04/2012
+		•All platforms: Add frame skipping when video is decoding too slowly
+		•All platforms: Add a color tintable transparent shader
+		•All platforms: Fix some transparent tags in shaders		
+		
+	Version 1.1.3 7/02/2012
+		•All Platforms: fix a looping bug	
+		•All Platforms: fix a warning in the chroma key editor
+		•iOS: Add XCode 3.2.X version of the lib
+		•Reorganise the package so the Plugins and Streaming Assets are in the correct place
+
+	Version 1.1.2 16/01/2011
+		•All Platforms: Added a chroma key shader, editor and sample
+		•iOS/Android: Fixed corruption issuse with a GL.InvalidateState
+		•All Platforms: Fixed 2 memory leaks in the native code
+		•All Platforms: Fixed YCrCb naming in the shaders
+
+	Version 1.1.1 28/12/2011
+		•iOS/Android: Work around a texture allocation bug in Unity if nothing else is drawing in the sample scene, by drawing a gui button
+
+	Version 1.1 27/12/2011
+		•All Platforms: now do color space conversion on the gpu. This resulted in a 2x performance increase in iOS and a 1.7x in Android, in my tests.
+		•All Platforms: There is a big memory saving from not storing the converted 16bit rgb in ram. For example for the test movies, we saved NextPow2(640) * NextPow2(360) * 2 bytes = 1Mb
+		•Android: now has cpu features detection and uses NEON instructions where available. iOS always uses NEON.
+		•Windows/OSX: use power of 2 YCrCb textures for a massive speed up.
+		•Windows/OSX: use SetPixels32 for another speed up.
+		•All Platforms: Removing the color space conversion code saved ~10k
+		•Android: Fixed a bug on when resuming
+		•Windows/OSX: Hand code the YCrCb shader to work around bad cgsl compilation by Unity		
+		
+If you have any questions/problems drop me a mail dan@defiantdev.com. If you have a great experience, the asset store could do with a comment. If you have a terrible one mail me! If you make anything cool with it, I'd love to know.
+

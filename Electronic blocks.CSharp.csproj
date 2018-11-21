@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{572CD41D-7930-6F40-1652-39B86B1EF513}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityVersion>5.5.2f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_2;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VIDEO;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_2;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VIDEO;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PlaymodeTestsRunner">
+      <HintPath>Library\UnityAssemblies\UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VR">
+      <HintPath>Library\UnityAssemblies\UnityEngine.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>Assets\Plugins\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\MobileMovieTexture\AssetStream.cs" />
+    <Compile Include="Assets\MobileMovieTexture\MobileMovieManager.cs" />
+    <Compile Include="Assets\MobileMovieTexture\MobileMovieTexture.cs" />
+    <Compile Include="Assets\MobileMovieTexture\StreamingAssetsLinkAttribute.cs" />
+    <Compile Include="Assets\MobileMovieTexture\TestMobileTexture.cs" />
+    <Compile Include="Assets\Scripts\AmmeterElm.cs" />
+    <Compile Include="Assets\Scripts\AudioManager.cs" />
+    <Compile Include="Assets\Scripts\BulbElm.cs" />
+    <Compile Include="Assets\Scripts\CirSim.cs" />
+    <Compile Include="Assets\Scripts\CircuitElm.cs" />
+    <Compile Include="Assets\Scripts\CircuitNode.cs" />
+    <Compile Include="Assets\Scripts\CounterElm.cs" />
+    <Compile Include="Assets\Scripts\DiodeElm.cs" />
+    <Compile Include="Assets\Scripts\EngineElm.cs" />
+    <Compile Include="Assets\Scripts\Flash.cs" />
+    <Compile Include="Assets\Scripts\Follow.cs" />
+    <Compile Include="Assets\Scripts\FollowTarget.cs" />
+    <Compile Include="Assets\Scripts\HornElm.cs" />
+    <Compile Include="Assets\Scripts\Initapp.cs" />
+    <Compile Include="Assets\Scripts\InitialEXList.cs" />
+    <Compile Include="Assets\Scripts\LightUpdate.cs" />
+    <Compile Include="Assets\Scripts\ListEvent.cs" />
+    <Compile Include="Assets\Scripts\LoadOver.cs" />
+    <Compile Include="Assets\Scripts\Magnifier.cs" />
+    <Compile Include="Assets\Scripts\MenuListener.cs" />
+    <Compile Include="Assets\Scripts\MicphoneTest.cs" />
+    <Compile Include="Assets\Scripts\MicrophoneElm.cs" />
+    <Compile Include="Assets\Scripts\Move.cs" />
+    <Compile Include="Assets\Scripts\MusicChipElm.cs" />
+    <Compile Include="Assets\Scripts\NPNElm.cs" />
+    <Compile Include="Assets\Scripts\PhotosensitiveResistorElm.cs" />
+    <Compile Include="Assets\Scripts\Point.cs" />
+    <Compile Include="Assets\Scripts\Progress.cs" />
+    <Compile Include="Assets\Scripts\Read.cs" />
+    <Compile Include="Assets\Scripts\RecorderChipElm.cs" />
+    <Compile Include="Assets\Scripts\ResistanceElm.cs" />
+    <Compile Include="Assets\Scripts\RotationSelf.cs" />
+    <Compile Include="Assets\Scripts\RowInfo.cs" />
+    <Compile Include="Assets\Scripts\SlidingResistanceElm.cs" />
+    <Compile Include="Assets\Scripts\Suit.cs" />
+    <Compile Include="Assets\Scripts\SwitchElm.cs" />
+    <Compile Include="Assets\Scripts\Utils.cs" />
+    <Compile Include="Assets\Scripts\VoltageElm.cs" />
+    <Compile Include="Assets\Scripts\WireElm_1.cs" />
+    <Compile Include="Assets\Scripts\WireElm_2.cs" />
+    <Compile Include="Assets\Scripts\WireElm_3.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\MobileMovieTexture\Instructions.txt" />
+    <None Include="Assets\MobileMovieTexture\Shaders\YCbCrtoRGB.cginc" />
+    <None Include="Assets\MobileMovieTexture\Shaders\YCrCbtoRGB.shader" />
+    <None Include="Assets\MobileMovieTexture\Shaders\YCrCbtoRGBChromaKey.shader" />
+    <None Include="Assets\MobileMovieTexture\Shaders\YCrCbtoRGBSplitAlpha.shader" />
+    <None Include="Assets\MobileMovieTexture\Shaders\YCrCbtoRGBTrans.shader" />
+    <None Include="Assets\MobileMovieTexture\legal.txt" />
+    <None Include="Assets\Shader\LogoFlash.shader" />
+    <None Include="Assets\Shader\Rim Light.shader" />
+    <None Include="Assets\Shader\Silhouetted Diffuse.shader" />
+    <None Include="Assets\StreamingAssets\AmmeterElm.txt" />
+    <None Include="Assets\StreamingAssets\BulbElm.txt" />
+    <None Include="Assets\StreamingAssets\CounterElm.txt" />
+    <None Include="Assets\StreamingAssets\DiodeElm.txt" />
+    <None Include="Assets\StreamingAssets\EX_0.txt" />
+    <None Include="Assets\StreamingAssets\EX_0_Info.txt" />
+    <None Include="Assets\StreamingAssets\EX_1.txt" />
+    <None Include="Assets\StreamingAssets\EX_1_Info.txt" />
+    <None Include="Assets\StreamingAssets\EX_2.txt" />
+    <None Include="Assets\StreamingAssets\EX_2_Info.txt" />
+    <None Include="Assets\StreamingAssets\EX_3.txt" />
+    <None Include="Assets\StreamingAssets\EX_3_Info.txt" />
+    <None Include="Assets\StreamingAssets\EX_4.txt" />
+    <None Include="Assets\StreamingAssets\EX_4_Info.txt" />
+    <None Include="Assets\StreamingAssets\EX_5.txt" />
+    <None Include="Assets\StreamingAssets\EX_5_Info.txt" />
+    <None Include="Assets\StreamingAssets\EngineElm.txt" />
+    <None Include="Assets\StreamingAssets\ExperimentFree.txt" />
+    <None Include="Assets\StreamingAssets\HornElm.txt" />
+    <None Include="Assets\StreamingAssets\MicrophoneElm.txt" />
+    <None Include="Assets\StreamingAssets\MusicChipElm.txt" />
+    <None Include="Assets\StreamingAssets\PhotosensitiveResistorElm.txt" />
+    <None Include="Assets\StreamingAssets\RecorderChipElm.txt" />
+    <None Include="Assets\StreamingAssets\ResistanceElm.txt" />
+    <None Include="Assets\StreamingAssets\SlidingResistanceElm.txt" />
+    <None Include="Assets\StreamingAssets\SwitchElm.txt" />
+    <None Include="Assets\StreamingAssets\VoltageElm.txt" />
+    <None Include="Assets\StreamingAssets\WireElm.txt" />
+    <None Include="Assets\StreamingAssets\WireElm_1.txt" />
+    <None Include="Assets\StreamingAssets\WireElm_2.txt" />
+    <None Include="Assets\StreamingAssets\WireElm_3.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
+</Project>
