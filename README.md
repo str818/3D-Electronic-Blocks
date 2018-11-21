@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-# 3D电子积木
+# 基于Android平台的幼儿教育APP——3D电子积木
 
 ### 一、前言
 
@@ -9,25 +8,25 @@
 
 3D电子积木是一款结合电子知识的教育类应用，它采用的是数据可扩展的架构，用户不单可以体验内置的实验，还可以下载服务器上的实验数据包。现阶段，安装程序内置6个实验，这6个实验用户可以直接体验，服务器上有另外6个实验，用户需要下载才可以体验。
 
-<div align="center">  <img src="C:\Users\JD\Desktop\3DE1.jpg" width="100%"/> </div><br>
+<div align="center">  <img src="https://github.com/str818/3D-Electronic-Blocks/blob/master/pic/3DE1.jpg" width="100%"/> </div><br>
 
 元器件介绍界面包含了所有元器件的3D展示与文字介绍。
 
-<div align="center">  <img src="C:\Users\JD\Desktop\3DE2.jpg" width="100%"/> </div><br>
+<div align="center">  <img src="https://github.com/str818/3D-Electronic-Blocks/blob/master/pic/3DE2.jpg" width="100%"/> </div><br>
 
 APP 初始状态包含 6 个内置实验，除此之外也可以由用户自行下载额外可供的实验包（商业模式：可修改成付费下载）。
 
-<div align="center">  <img src="C:\Users\JD\Desktop\3DE3.jpg" width="100%"/> </div><br>
+<div align="center">  <img src="https://github.com/str818/3D-Electronic-Blocks/blob/master/pic/3DE3.jpg" width="100%"/> </div><br>
 
 加载界面会随机提示一些电路相关的知识点。实验界面可以旋转视角、将元器件拼接到电路板上，连通电路呈现出对应的实验效果。
 
-<div align="center">  <img src="C:\Users\JD\Desktop\3DE4.jpg" width="100%"/> </div><br>
+<div align="center">  <img src="https://github.com/str818/3D-Electronic-Blocks/blob/master/pic/3DE4.jpg" width="100%"/> </div><br>
 
-<div align="center">  <img src="C:\Users\JD\Desktop\3DE5.jpg" width="100%"/> </div><br>
+<div align="center">  <img src="https://github.com/str818/3D-Electronic-Blocks/blob/master/pic/3DE5.jpg" width="100%"/> </div><br>
 
 每个实验都附有对应的实验讲解。
 
-<div align="center">  <img src="C:\Users\JD\Desktop\3DE6.jpg" width="100%"/> </div><br>
+<div align="center">  <img src="https://github.com/str818/3D-Electronic-Blocks/blob/master/pic/3DE6.jpg" width="100%"/> </div><br>
 
 ### 三、技术难点
 
@@ -59,7 +58,7 @@ APP 初始状态包含 6 个内置实验，除此之外也可以由用户自行�
 
 在初始的模型调整时，严格规划了模型的尺寸，全部按照实际尺寸比例。Unity 引擎自带碰撞器，为我们的检测带来了方便，此时碰撞器删除以往物理碰撞的载体身份，而是作为一个触发器。
 
-<div align="center">  <img src="C:\Users\JD\Desktop\3DE7.png" width="50%"/> </div><br>
+<div align="center">  <img src="https://github.com/str818/3D-Electronic-Blocks/blob/master/pic/3DE7.png" width="50%"/> </div><br>
 
 当两个纽扣的碰撞器碰触到的时候，不触发物理上的碰撞，而是传给管理层一个触碰信息，得到这一信息后，由代码进行检测，计算中心位置，如果满足拼接要求，则进行拼接。在模型设计初，我们为每个模型都进行了归类处理，同一类型的模型被冠以相同的标签 Tag ，这也是是否可以进行拼接的判断因素之一。
 
@@ -68,6 +67,3 @@ APP 初始状态包含 6 个内置实验，除此之外也可以由用户自行�
 由于模型较为精细，进入实验场景时需要大量加载时间，这种现象严重降低用户的体验，所以场景之间的异步加载是必须要解决的。
 
 为此新建了一个过渡场景，在此场景中设置进度条，首先禁止 Unity 中加载完毕后自动切换场景的模式，在过渡场景运行的同时，也对实验场景进行加载，通俗的说就读条滚动和下一个场景的预读是同步进行的，这样就使整个软件看起来运行更加流畅了。
-=======
-# 3D-Electronic-Blocks
->>>>>>> 73bc90d59cfc6db56889643b33948a309e1dffc9
